@@ -6,4 +6,4 @@ WORKDIR /app
 
 COPY ./var/lib/jenkins/workspace/SampleTCC/bin/Debug/netcoreapp3.1/publish/ .
 
-ENTRYPOINT [ "dotnet", "mvc.dll" ]
+ENTRYPOINT [ "dotnet", "SampleTcc.dll" ]
