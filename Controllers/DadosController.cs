@@ -17,6 +17,7 @@ namespace SampleTcc.Controllers
             DadosModel model = new DadosModel();
             model.ServerName = Dns.GetHostName();
             model.RequestCount = Global.count;
+            model.Version = "1.0";
             return model;
         }
     }
